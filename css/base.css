@@ -9,9 +9,8 @@ body {
 .conteiner {
 	width: 1170px;
 	min-width: 320px;
-	padding: 0 15px;
+	padding: 0 103px;
 	margin: 0 auto;
-	background-color: #000;
 }
 
 .conteiner:after {

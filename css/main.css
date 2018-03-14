@@ -1,8 +1,110 @@
+.tumba {
+	padding: 0 90px;
+}
+
+.woomen__block {
+	width: 100%;
+	height:auto;
+	margin: 0 auto;
+}
+
+.woomen {
+	display: inline-block;
+	padding: 10px 15px;
+	width: 33%
+}
+
+.wrapper {
+	position: relative;
+	top: 0;
+	background-image: url(../images/wom2.jpg);
+	background-repeat: no-repeat;
+	height: 88vh;
+	background-position: center;
+	}
+
+.sale {
+	position: absolute;
+	top: 115%;
+	bottom: 0;
+	right: 0;
+	left: 9px;
+	margin: 0 auto;
+	z-index: 9;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 22px;
+    color: #000;
+	 font-family: 'PT Sans',regular;
+	 text-transform: uppercase;
+	 text-decoration: underline;
+	
+}
+
+.text__wom {
+	font-family: 'PT Sans', regular;
+	text-transform: uppercase;
+	font-size: 17px;
+	text-align: center;
+	line-height: 1.4rem;
+	margin-top: 30px;
+
+}
+
+.line{
+
+	text-decoration: line-through;
+}
+
+.text__wom1 {
+	font-family: 'PT Sans', regular;
+	text-transform: uppercase;
+	font-size: 17px;
+	text-align: center;
+	line-height: 1.4rem;
+	margin-top:  30px;
+
+}
+
+
+.text__wom2 {
+	font-family: 'PT Sans', regular;
+	text-transform: uppercase;
+	font-size: 17px;
+	text-align: center;
+	line-height: 1.4rem;
+	margin-top:  30px;
+
+}
+
+
+
+
+
+.btn__wom a {
+	font-family: PT Sans, regular;
+	display: block;
+	position: absolute;
+	bottom: 120px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 180px;
+	font-size: 14px;
+	padding: 15px;
+	color: #00000047;
+	border: 1px solid #00000047;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+
+
 a {
 	text-decoration: none;
 	font-size: 16px;
 	line-height: 10px;
-	color: #e01b1b;
+	color: #fff;
 	font-family:  'PT Sans', sans-serif;
 
 } 
@@ -13,7 +115,32 @@ li {
 	list-style: none;
 }
 
+
+
+/*---------Tumba---------*/
+
+
+@media screen and (max-width:992px) {
+
+.woomen  {
+	display: inline-block;
+	width: 35%;
+
+  }}
+
+@media screen and (max-width:768px) {
+
+.woomen {
+	display:block;
+	width: 50%;
+	
+}}
+
+
+/*--------------Foooter-------------*/
+
 .footer {
+	width: 100%;
 	background-color: #000;
 }
 
@@ -25,7 +152,7 @@ li {
 	display: inline-block;
 	float: left;
 	width: 33.3%;
-	padding: 0 10px;
+	padding: 40px 90px;
 	margin-top: 10px;
 }
 
@@ -33,20 +160,20 @@ li {
 	display: inline-block;
 	float: left;
     width: 33.3%;
-    padding: 0 10px;
+    padding: 40px 10px;
     margin-top: 10px;
 }
 
 .write {
-	display: inline-block;
+	position: relative;
 	float: right;
 	width: 12%;
 	text-align: center;
-	padding: 9px 0;
+	padding: 15px 0;
 	border: 1px solid #fff;
 	font-size: 16px;
-	margin-top: 10px;
-	margin-right: 50px;
+	margin-top: 50px;
+	margin-right: 85px;
 }
 
 .avtor {
@@ -54,14 +181,14 @@ li {
 	color: #fff;
 	font-size: 14px;
     width: 33%;
-    margin: 20px 40px;
+    margin: 0px 90px;
 }
 
 .footer__tovar {
 	display: inline-block;
 	float: left;
 	    width: 33.3%;
-	    padding: 0 10px;
+	    padding: 40px 10px;
 	    margin-top: 10px;
 
 	}
@@ -82,12 +209,16 @@ a:after {
 }
 
 
+/*--------------Footer--------*/
+
+
 @media screen and (max-width:992px) {
 
-.contact {
+.contact  {
 	display: block;
     width: 100%;
-}}
+
+  }}
 
 @media screen and (max-width:768px) {
 
@@ -106,6 +237,7 @@ a:after {
 
 	}}
 
+	
 
 
 
