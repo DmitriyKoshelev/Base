@@ -2,56 +2,119 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 	<title>Progect11</title>
+	<link rel="stylesheet"  href="css/slick.css">
+	<link rel="stylesheet"  href="css/slick-theme.css">
 	<link rel="stylesheet"  href="css/base.css">
 	<link rel="stylesheet"  href="css/main.css">
 </head>
 <body>
-<div class="tumba conteiner listReset">
-	<div class="woomen">
-		<img src="images/w1.jpg" class="woomen__block">
+<header class="header">
+	<div class="header__top">
+		<div class="container">
+		<a href="mailto:qwe@gmail.com" class="mailLink">Напишите нам
+				</a>
+				
+				<div class="header__topRight">
+					<p class="delivery">Бесплатная доставка по всему миру по заказам свыше $200
+					</p>
+					<a href="#" class="account">Личный кабинет</a>
+					<ul class="location listReset">
+						<li class="location__item"><a href="#">ru</a></li>
+						<li class="location__item"><a href="#">en</a></li>
+					</ul>	
+				</div>
+				
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container">
+				<div class="toggleMobMenu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<a href="/" class="logo"></a>
+				<div class="menuCont">
+					<ul class="menu listReset">
+						<li class="menu__item"><a href="#">Новинки</a></li>
+						<li class="menu__item"><a href="#">Дизайнеры</a></li>
+						<li class="menu__item"><a href="#">Каталог</a></li>
+						<li class="menu__item"><a href="#">Sale</a></li>
+				  	</ul>	
+				</div>
+				<a href="#" class="basket">1</a>
+				<div class="header__formCont">
+					<form action="/" method="post" class="header__form">
+						<input type="search" name="s">
+						<button>Отправить</button>
+					</form>	
+					<span class="searchIcon"></span>
+				</div>
+				
+			</div>
+		</div>
+</header>
+	<div class="cart">
+		<div class="picture">
+			<img src="images/slide2.jpg">
+	</div>
+		<div class="picture">
+			<img src="images/slide.jpg">
+	</div>
+		<div class="picture">
+			<img src="images/slide2.jpg">
+	</div>
+		</div>
+	<div class="new">
+		<a href="#">Новинки</a>
+	</div>
+		<div class="tumba conteiner listReset">
+		<div class="tumbneil listReset">
+		<img src="images/w1.jpg" class="tumbneil__block">
 		<div class="text__wom">Dress with frilled trims <br>UAH 1,995.00</br></div>
 	</div>
-	<div class="woomen">
-		<img class="woomen__block" src="images/w2.jpg">
+	<div class="tumbneil">
+		<img class="tumbneil__block1" src="images/w2.jpg">
 		<div class="text__wom1">Solid dress with ruffle detail <br>UAH 3,295.00   <span class="line">UAH 4,000.00<br></span></div>
 	</div>
-	<div class="woomen">
-		<img class="woomen__block" src="images/w3.jpg">
+	<div class="tumbneil">
+		<img class="tumbneil__block2" src="images/w3.jpg">
 		<div class="text__wom2">Flowing floral print dress <br>UAH 4,995.00</br></div>
 	</div>
-	
-</div>
-<div class="btn__wom">
+	<div class="btn__wom">
 <a href="#" target="_blank"> перейти ко всем ></a></div>
+</div>
+
+
+
 
 <div class="conteiner">
-	<div class="wrapper"></div>
+	<div class="wrapper">
+		<img src="images/wom.jpg">
+	</div>
 		<h2 class="sale">Sale</h2>
 </div>
-
-	
-
-<footer class="footer conteiner">
+<footer class="footer">
 		<div class="footer_cont">
-		<div class="footer__menu clearFix">
-	<ul class="listReset">
-		<li class="menu__item"><a href="#">новинки</a></li>
-		<li class="menu__item"><a href="#">дизайнеры</a></li>
-		<li class="menu__item"><a href="#">каталог</a></li>
-	<li class="menu__item"><a href="#">sale</a></li>
+	<div>
+	<ul class="footer__men clearFix listReset">
+		<li class="men__item"><a href="#">новинки</a></li>
+		<li class="men__item"><a href="#">дизайнеры</a></li>
+		<li class="men__item"><a href="#">каталог</a></li>
+		<li class="men__item"><a href="#">sale</a></li>
    </ul>
-</div>
-<div class="footer__tovar clearFix">
-	<ul class="listReset">
-	  <li class="tovar__item"><a href="#">Заказы и доставка</a></li>
-	  <li class="tovar__item"><a href="#">возврат товара</a></li>
-	  <li class="tovar__item"><a href="#">самовывоз</a></li>
+<div>
+	<ul class="footer__tovar clearFix listReset">
+	   <li class="tovar__item"><a href="#">Заказы и доставка</a></li>
+	   <li class="tovar__item"><a href="#">возврат товара</a></li>
+	   <li class="tovar__item"><a href="#">самовывоз</a></li>
 	</ul>
 </div>
-<div class="contact clearFix">
-	<ul class="listReset">
+<div>
+	<ul class="contact clearFix listReset">
 		<li> <a href="#">Наши контакты:</a></li>
 	    <li><a href="#" class="number">(067) 539 51 62</a></li>
         <li><a href="#" class="number">(067) 539 51 61</a></li>
@@ -59,8 +122,10 @@
 	</ul>
 </div>
 </div>
+</div>
 	<div class="write clearFix">
 <a href="#">Напишите нам</a>
+</div>
 </div>
 <div class="avtor">
 	<span>
@@ -68,7 +133,9 @@
 </span>
 </div>
 </footer>
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
 
