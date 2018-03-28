@@ -12,6 +12,6 @@ $(function(){
 
 $ (function  () {
 $ ('.cart').slick({
-      autoplay:true
+      	autoplay:true
 })
 });
