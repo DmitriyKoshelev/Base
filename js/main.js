@@ -12,6 +12,7 @@ $(function(){
 
 $ (function  () {
 $ ('.cart').slick({
-      	autoplay:true
+      	arrows:false,
+      	autoplay:false
 })
 });

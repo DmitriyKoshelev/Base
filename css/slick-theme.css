@@ -19,6 +19,7 @@
 .slick-prev,
 .slick-next
 {
+	
     font-size: 0;
     line-height: 0;
 
@@ -77,10 +78,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-prev
+/*.slick-prev
 {
     left: -25px;
-}
+}*/
 [dir='rtl'] .slick-prev
 {
     right: -25px;
@@ -95,8 +96,8 @@
     content: '→';
 }
 
-.slick-next
 {
+.slick-next
     right: -25px;
 }
 [dir='rtl'] .slick-next

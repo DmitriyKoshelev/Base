@@ -198,9 +198,7 @@
 }
 
 @media screen and (min-width: 768px) {
-.container {
-	max-width: 1360px;
-}
+
 
 	.toggleMobMenu {
 		display: none;
@@ -332,11 +330,12 @@
 .tumbneil {
 	display: inline-block;
 	padding: 10px 15px;
-	width: 33%
+	width: 33%;
 }
 
 .wrapper {
 	position: relative;
+	margin-bottom: 60px;
 }
 
 .wrapper img {
@@ -440,9 +439,43 @@ li {
 
 
 /*---------Tumba---------*/
+@media screen and (min-width:320px) {
+
+.tumbneil {
+    display: inline-block;
+    padding: 10px 15px;
+    width: 50%;
+    margin-left: 80px;
+}
+
+
+
+.btn__wom  {
+	text-align: center;
+	padding-left: 20px;
+}
+
+
+	.wrapper {
+		margin-bottom: -30px;
+	}
+
+
+.write {
+	padding: 15px 10px;
+}
+
+
+}
+
+
 
 
 @media screen and (min-width:480px) {
+
+	.wrapper {
+    margin-bottom: 60px;
+}
 
 .sale {
 	 position: absolute;
@@ -477,7 +510,7 @@ li {
 	margin: 0 auto;
 }
 .btn__wom a {
-	left: 25%;
+	left: 20%;
 }
 
 .text__wom1 {
@@ -490,6 +523,32 @@ li {
 }
 
 @media screen and (min-width:576px) {
+
+.tumbneil {
+    display: inline-block;
+    padding: 10px 15px;
+    width: 50%;
+    margin-left: 140px;
+}
+
+
+
+.btn__wom  {
+	text-align: center;
+	padding-left: 20px;
+}
+
+
+	.wrapper {
+		margin-bottom: 0;
+	}
+
+
+.write {
+	padding: 15px 10px;
+}
+
+
 
 .sale {
 	display: block;
@@ -537,7 +596,7 @@ li {
 }
 
 .btn__wom a {
-	left: 36%;
+	left: 25%;
 }
 }
 
@@ -593,6 +652,13 @@ li {
 
 
 @media screen and (min-width:1200px) {
+.tumbneil {
+    display: inline-block;
+    padding: 10px 15px;
+    width: 33%; 
+    margin-left: 0;
+}
+
 
 .sale {
 	 position: absolute;
@@ -620,7 +686,6 @@ li {
 /*--------------Foooter-------------*/
 
 .footer {
-	margin-top: 60px;
 	padding: 35px 0 40px 0;
 	background-color: #000;
 }
@@ -669,7 +734,7 @@ li {
 
 .write {
 	display: inline-block;
-	padding: 15px;
+	padding: 15px 10px;
 	border: 1px solid;
 	color: #fff;
 	text-decoration: none;
@@ -689,17 +754,26 @@ li {
 	text-transform: none;
 }
 
-.avtor {
+.footer__cr {
 	color: #fff;
 	font-size: 15px;
 }
 
-.avtor a {
+.footer__cr a {
 	color: #fff;
 }
 
 
 /*--------------Footer--------*/
+
+@media screen and (min-width:480px) {
+
+.write {
+	padding: 15px 10px;
+}
+}
+
+
 
 @media screen and (min-width:480px) {
 
@@ -711,7 +785,7 @@ li {
 		font-size: 18px;
 	}
 
-	.avtor {
+	.footer__cr {
 		font-size: 18px;
 	}
 
@@ -719,7 +793,7 @@ li {
 		padding: 15px;
 	}
 
-.avtor {
+.footer__cr {
 	color: #fff;
 	font-size: 14px;
 }}
@@ -728,7 +802,6 @@ li {
 
 @media screen and (min-width:576px) {
 
-	
 
 }
 
@@ -746,11 +819,11 @@ li {
 		color: #777;
 	}
 
-	.avtor {
+	.footer__cr {
 		font-size: 16px;
 	}
 
-	.avtor a:hover {
+	.footer__cr a:hover {
 		color: #777;
 	}
 
@@ -793,7 +866,7 @@ li {
 	}
 	
 
-    .avtor span {
+    .footer__cr span {
 	   display:inline-block;
 	   text-align: left;
 	   color: #fff;
